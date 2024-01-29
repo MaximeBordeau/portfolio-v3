@@ -1,4 +1,4 @@
-// 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
+// API-KEY : XXXXXXXXX
 
 const chatbotToggler = document.querySelector(".chatbot-toggler");
 const closeBtn = document.querySelector(".close-btn");
