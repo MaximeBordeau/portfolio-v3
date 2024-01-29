@@ -1,0 +1,45 @@
+@mixin flexColumnCenterXY {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flexColumnStartY{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flexRowStartX {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@mixin flexRowCenterXY {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin titreSection {
+    color: $color-primary;
+    
+
+}
+
+@mixin query($screen){
+    @each $key, $value in $bp{
+        @if ($screen == $key){
+            @media (min-width: $value){
+                @content;
+            }
+        }
+    }
+}

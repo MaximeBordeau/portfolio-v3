@@ -1,0 +1,81 @@
+// COLORS
+
+$color-primary: #2F5DF5;
+$color-secondary: #FFFFFF;
+$color-accent: #90C4FF;
+
+$color-text: #191B1F;
+
+$color-weatherAPI : #4970FA;
+$color-passify-bg : #F5F5F5; 
+$color-passify-text : #3E62F5; 
+$color-checked-bg : #FDFDFD; 
+$color-checked-text1 : #5A57DA; 
+$color-checked-text2 : #E05E62; 
+
+$color-chatty-text : #FFF;
+$color-chatty-bg : #54b643;
+
+
+
+
+
+
+
+// FONT
+
+$font-title: "Poppins", Sans-serif;
+$fontFamily-body: 'DM Sans', sans-serif;
+
+$fontSize-display-1: calc(1.3rem + 6.7vw);
+$fontSize-headline-1: calc(1rem + 2.5vw);
+$fontSize-headline-2: calc(1rem + 0.390625vw);
+$fontSize-title-1: calc(1.6rem + 1.2vw);
+$fontSize-title-2: 2.2rem;
+$fontSize-title-3: 2.1rem;
+$fontSize-title-4: calc(1.6rem + 1.2vw);
+
+$fontSize-body-1: 2.4rem;
+$fontSize-body-2: 1.6rem;
+$fontSize-body-3: 1.8rem;
+$fontSize-body-4: 1.6rem;
+$fontSize-label-1: 1.4rem;
+$fontSize-label-2: 1.2rem;
+
+$fontsize-test: calc(1.3rem + 0.390625vw);
+
+$weight-regular: 400;
+$weight-bold: 700;
+
+// SPACING
+
+$section-space: 70px;
+
+// SHADOW
+
+$shadow-1: 0px 0px 25px 0px hsla(0, 0%, 0%, 0.25);
+
+// BORDER RADIUS 
+
+$radius-outer : 16px;
+$radius-inner : $radius-outer / 2;
+$radius-circle: 50%;
+$radius-pill: 500px;
+
+
+
+
+
+$gap : 4vh;
+$padding: 2rem;
+$gapflex: 1rem;
+
+$bp : (
+    mobile : 0px,
+    tablet : 541px,
+    desktop: 1025px,
+);
+
+
+
+
